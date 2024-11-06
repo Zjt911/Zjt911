@@ -1,9 +1,88 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Page-1" id="IgM-g6vmIYDLoh1PL_ix">
-    <mxGraphModel>
+    <mxGraphModel dx="2071" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="45WThXLMzWErZt7Nvfy4-3" value="movies Name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="185" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-5" value="it is a individual parts&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="195" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45WThXLMzWErZt7Nvfy4-8" target="45WThXLMzWErZt7Nvfy4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-8" value="one movie can effect many genres" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-9" value="genres" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="277.5" as="sourcePoint" />
+            <mxPoint x="379.5" y="232.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="379.5" y="262.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-11" value="one genres also can impact many movies" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Movies Name&lt;/h1&gt;&lt;p&gt;it will represent individual part.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="125" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Genres&amp;nbsp;&lt;/h1&gt;&lt;p&gt;It will list multiple different parts for the movies&amp;nbsp; .&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-16" value="it is a many to many direction from movies and genres&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-18" value="Stars" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="185" as="sourcePoint" />
+            <mxPoint x="379.5" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Stars&lt;/h1&gt;&lt;p&gt;The actor has the meaning of every character in a movie&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45WThXLMzWErZt7Nvfy4-22" target="45WThXLMzWErZt7Nvfy4-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-22" value="Every movie can have different actors and every actor can appear several different movies&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-23" value="It is also a many to many direction for these two parts&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-27" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="45WThXLMzWErZt7Nvfy4-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="215" as="sourcePoint" />
+            <mxPoint x="90" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="255" />
+              <mxPoint x="190" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-28" value="Director" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-30" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Director&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(31, 31, 31); font-family: Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;a person who controls the making of a film and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-decoration-line: underline; color: rgb(31, 31, 31); font-family: Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot; class=&quot;AraNOb&quot;&gt;&lt;a style=&quot;text-decoration-line: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1); outline: 0px;&quot; tabindex=&quot;0&quot; href=&quot;https://www.google.com/search?sca_esv=c263faa809bdb49e&amp;amp;q=supervises&amp;amp;si=ACC90nz-2feRzoY4yuySkO-aQE81Bdu-kAJHBerNVGxaVavxmHUrM5RgS4-ewUaBLgkwtS0lTe9pnEhPxvUlROej--4n4Zqwz2behGTEW2byayF-sKO4A9E%3D&amp;amp;expnd=1&amp;amp;sa=X&amp;amp;sqi=2&amp;amp;ved=2ahUKEwj3tuXT4ciJAxWgIzQIHTu4IuQQyecJegQIMhAP&quot; class=&quot;rMNQNe&quot;&gt;s&lt;/a&gt;upervise&lt;/span&gt;&lt;span style=&quot;color: rgb(31, 31, 31); font-family: Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;the actors and technical crew.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-31" value="Every movie only has one director but every director can have more movies" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45WThXLMzWErZt7Nvfy4-32" value="For the director, it is one to many direction to moive; which means one director can have more than one movies but every movie only have one director&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="290" width="360" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
